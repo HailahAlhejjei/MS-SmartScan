@@ -59,7 +59,9 @@ Python · Ultralytics **YOLO26s** (lesion detection) + **YOLO26n-cls** (MRI gate
 
 ## My Contribution (Hailah Alhejjei)
 
-**UX & web development**: I designed the doctor's experience and built the two websites, the **MRI Scanner** and the **Patient Registry** (patient records).
+- **UX & web development**: designed the doctor's experience and built the two websites, the **MRI Scanner** and the **Patient Registry** (patient records).
+- **Database**: the shared SQLite database that links both apps (patients, scans and doctor accounts).
+- **Security**: doctor PIN authentication with salted PBKDF2 hashing, plus the access controls around it.
 
 ## Screenshots
 
@@ -93,7 +95,7 @@ Clinical pilot at a university medical city → Saudi MRI data and SFDA registra
 |---|---|
 | Dana Mohammed Al-Anazi | Team lead: coordination, systems development, presentation |
 | Marwah Abdullah Sabai | AI: built, trained and deployed the YOLO26s model on Raspberry Pi |
-| **Hailah Abdulrahman Alhejjei** | UX & websites: doctor experience, MRI Scanner and Patient Registry |
+| **Hailah Abdulrahman Alhejjei** | UX & websites, database and security: doctor experience, MRI Scanner, Patient Registry, PIN hashing |
 
 ---
 
@@ -118,9 +120,9 @@ Clinical pilot at a university medical city → Saudi MRI data and SFDA registra
 - واجهة بالعربية والإنجليزية، وتصدير إلى Excel.
 
 ### مساهمتي (هيله الحجي)
-تصميم تجربة الطبيب وبناء الموقعين: **موقع الفحص** و**سجل المرضى**.
+تصميم تجربة الطبيب وبناء الموقعين (**موقع الفحص** و**سجل المرضى**)، وقاعدة البيانات المشتركة، وأمان الدخول بتشفير رموز الأطباء (PBKDF2).
 
 ### الفريق
-دانا العنزي (قائدة الفريق) · مروة سبعي (الذكاء الاصطناعي) · هيله الحجي (تجربة المستخدم والمواقع)
+دانا العنزي (قائدة الفريق) · مروة سبعي (الذكاء الاصطناعي) · هيله الحجي (تجربة المستخدم والمواقع وقاعدة البيانات والأمان)
 
 </div>
