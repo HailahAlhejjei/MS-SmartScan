@@ -94,7 +94,6 @@ Clinical pilot at a university medical city → Saudi MRI data and SFDA registra
 | Dana Mohammed Al-Anazi | Team lead: coordination, systems development, presentation |
 | Marwah Abdullah Sabai | AI: built, trained and deployed the YOLO26s model on Raspberry Pi |
 | **Hailah Abdulrahman Alhejjei** | UX & websites: doctor experience, MRI Scanner and Patient Registry |
-| Omar Abdulrahman | External advisor: emergency physician providing clinical guidance |
 
 ---
 
@@ -122,6 +121,6 @@ Clinical pilot at a university medical city → Saudi MRI data and SFDA registra
 تصميم تجربة الطبيب وبناء الموقعين: **موقع الفحص** و**سجل المرضى**.
 
 ### الفريق
-دانا العنزي (قائدة الفريق) · مروة سبعي (الذكاء الاصطناعي) · هيله الحجي (تجربة المستخدم والمواقع) · عمر عبدالرحمن (مستشار سريري)
+دانا العنزي (قائدة الفريق) · مروة سبعي (الذكاء الاصطناعي) · هيله الحجي (تجربة المستخدم والمواقع)
 
 </div>
